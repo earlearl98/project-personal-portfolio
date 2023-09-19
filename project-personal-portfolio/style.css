@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color:white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-decoration: none;
+}
+
+nav ul li {
+  display:inline-block;
+  margin-right: 20px;
+font-size: 15px;
+}
+
+
+section {
+  padding: 20px;
+}
+
+/* home page styling */
+.img1{
+width: 400px;
+height: 400px;
+margin-right: 500px;
+}
+#home{
+display: flex;
+justify-content: space-between;
+background-color:white;
+}
+
+.home-paragraph{
+margin-top: 100px;
+margin-left: 300px;
+
+}
+.name{
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(5, 96, 129);
+}
+.hi{
+  font-size: 30px;
+  font-weight: 700;
+}
+.content{
+  font-size: 15px;
+  margin-top: 200px;
+}
+/* about styling */
+#about{
+  background-color: rgb(40, 40, 40);
+  height:500px ;
+
+}
+.about-paragraph{
+  color: white;
+  font-size:15px ;
+  margin-top: 50px;
+  margin-left: 300px;
+}
+.about-header{
+  color: white;
+  margin-left:550px ;
+  margin-top: 20px;
+}
+.line{
+  width: 300px;
+}
+.img2{
+  width: 130px;
+  height: 150px;
+  margin-left: 300px;
+}
+.img3{
+  width: 130px;
+  height: 150px;
+  margin-left: 200px;
+  transition: all 0.3s ease;
+
+
+}
+.fun-facts{
+  margin-left:300px ;
+  color: aliceblue;
+}
+
+/* contacts styling */
+#contact{
+  margin-left: 300px;
+}
+footer {
+  color: #fff;
+  padding: 20px 0;
+}
+
+.social-icons {
+  font-size: 24px;
+}
+
+.social-icons a {
+  color: #292828;
+  text-decoration: none;
+  margin: 0 10px;
+}
